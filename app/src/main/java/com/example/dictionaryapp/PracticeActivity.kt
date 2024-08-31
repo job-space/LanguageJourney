@@ -9,7 +9,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.google.android.gms.ads.MobileAds
 
 
 class PracticeActivity : AppCompatActivity() {
@@ -35,9 +34,6 @@ class PracticeActivity : AppCompatActivity() {
 
         val db = DbHelper(this, null)
 
-
-        // Advertising
-        MobileAds.initialize(this) {}
 
         favoritesItem.setOnClickListener {
             val wordsList = db.getFavoriteWords()
