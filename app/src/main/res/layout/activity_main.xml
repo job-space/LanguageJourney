@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginBottom="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageButton
+                android:id="@+id/menu_button"
+                android:layout_width="40dp"
+                android:layout_height="47dp"
+                android:background="?attr/colorSecondary"
+                android:backgroundTint="?attr/colorPrimary"
+                android:contentDescription="Меню"
+                android:src="@android:drawable/ic_menu_sort_by_size"
+                android:tint="?attr/colorSecondary" />
+
+            <EditText
+                android:id="@+id/edit_text_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Введіть слово"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/favorite_button_up"
+                android:layout_width="40dp"
+                android:layout_height="47dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="favorite"
+                android:src="@android:drawable/btn_star_big_off" />
+        </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/searchAButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorSecondary"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/searchAButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/searchBButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/searchCButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/searchDButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/searchEButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/searchFButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/searchGButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/searchHButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/searchIButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/searchJButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/searchKButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/searchLButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="L" />
+
+            <Button
+                android:id="@+id/searchMButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/searchNButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/searchOButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/searchPButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="P" />
+
+            <Button
+                android:id="@+id/searchQButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/searchRButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/searchSButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/searchTButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/searchUButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/searchVButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/searchWButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/searchXButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/searchYButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/searchZButton"
+                android:layout_width="60dp"
+                android:backgroundTint="?attr/colorSecondary"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorPrimary"
+                android:text="Z" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+    <!-- Container for a list of words -->
+    <LinearLayout
+        android:id="@+id/list_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="50dp"
+        android:layout_marginHorizontal="33dp"
+        android:orientation="vertical">
+    </LinearLayout>
+        </ScrollView>
+</LinearLayout>
+
+
+</LinearLayout>
+
+
+<com.google.android.material.navigation.NavigationView
+android:id="@+id/navigation_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:layout_gravity="start"
+app:menu="@menu/drawer_menu" />
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>

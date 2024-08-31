@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:title="Словник"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:iconTint="#000000"
+            android:titleCondensed="Слов."
+            android:checked="false"
+            android:checkable="true"
+            android:visible="true"
+            android:enabled="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/nav_practice"
+            android:title="Практика"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:iconTint="#000000"
+            android:titleCondensed="Практ."
+            android:checked="false"
+            android:checkable="true"
+            android:visible="true"
+            android:enabled="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:showAsAction="always"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Налаштування"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:iconTint="#000000"
+            android:titleCondensed="Нал."
+            android:checked="false"
+            android:checkable="true"
+            android:visible="true"
+            android:enabled="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:showAsAction="always"/>
+    </group>
+</menu>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.dictionaryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Налаштування для денної теми -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="colorError">@color/colorRed</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+    </style>
+
+    <style name="Theme.dictionaryApp" parent="Base.Theme.dictionaryApp" />
+</resources>
